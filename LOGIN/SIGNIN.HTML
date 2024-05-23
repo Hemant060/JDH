@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="SIGNIN.css">
+</head>
+<body>
+    <div class="login-container">
+        <a href="/index.html" class="home-icon">
+            <img src="home-icon.png" alt="Home">
+        </a>
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="emailPhone">Email/Phone:</label>
+            <input type="text" id="emailPhone" name="emailPhone" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+
+            <div class="links">
+                <a href="#" id="forgotPassword">Forgot password?</a>
+                <a href="SIGNUP.html" id="signUp">Sign up</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="SIGNIN.js"></script>
+</body>
+</html>
